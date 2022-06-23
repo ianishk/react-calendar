@@ -1,0 +1,79 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.App{
+  display: flex;
+}
+.Sidebar{
+  width: 20vw;
+  height: 100vh;
+  border-right: 1px solid #e0e0e0;
+  padding: 1rem 1rem ;
+}
+
+
+.Calendar{
+  width: 80vw;
+  height: 100vh;
+  /* border: 1px solid #e0e0e0; */
+  display: grid;
+  grid-template-columns: 9.3vw 9.3vw 9.3vw 9.3vw 9.3vw 9.3vw 9.3vw 9.3vw;
+}
+.Slots{
+  display: flex;
+  flex-direction: column;
+}
+.Slot{
+  height: 17.5vh;
+  border: 1px solid #e0e0e0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: aquamarine; */
+}
+.Slot-header{
+  height: 10vh;
+  border: 1px solid #e0e0e0;
+}
+.Day {
+  display: flex;
+  flex-direction: column;
+}
+.Day_slot {
+  height: 17.5vh;
+  border: 1px solid #e0e0e0;
+ 
+}
+.Day_event_title {
+  height: 17.5vh; 
+  background-color: #E69A8DFF;
+  border: 1px solid #e0e0e0;
+  border-bottom: 1px solid #E69A8DFF;
+  color: #5F4B8BFF;
+}
+.Day_event_title p{
+  margin-top: 2px;
+  margin-left: 4px;
+}
+.Day_event {
+  height: 17.5vh;
+  background-color: #E69A8DFF;
+  border: 1px solid #e0e0e0;
+  border-top: 1px solid #E69A8DFF;
+  border-bottom: 1px solid #E69A8DFF;
+}
+
+.Day-header{
+  height: 10vh;
+  border: 1px solid #e0e0e0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Day-highlight{
+  background-color: #5F4B8BFF;
+  color: #E69A8DFF;
+}
